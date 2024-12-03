@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinese Food API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Chinese Food</h1>
+    <div class="filter">
+        <h4>Select difficulty type: </h4>
+
+        <label for="easy">Easy</label>
+        <input type="checkbox" name="difficulty" value="easy" id="easy">
+        <br>
+
+        <label for="medium">Medium</label>
+        <input type="checkbox" name="difficulty" value="medium" id="medium">
+        <br>
+
+        <button id="getFoodBtn">Get chinese food</button>
+    </div>
+
+    <div id="foodContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
